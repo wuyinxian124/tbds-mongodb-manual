@@ -1,3 +1,11 @@
-# My Awesome Book
+# 本文是在用户进行工作流任务配置时使用文档
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+__改文档包括五个部分__
+>1. **工作流基本介绍**
+>2. **基本概念**
+>3. **任务基本属性配置**
+>4. **任务高级属性配置**
+>5. **高级功能**
+>6. **其他**
+
+
