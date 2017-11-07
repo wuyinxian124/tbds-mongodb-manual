@@ -64,3 +64,4 @@ router_server_log_path 指定log 存储路径(完整路径为 /usr/local/mongodb
 #### 说明
 1. 安装过程中，tbds会在mongodb 中新建一个用户admin ,密码是123qwe!@#QWE 目前这个密码是固定的，不能指定。 admin 对应的角色为root,userAdminAnyDatabase。默认启用key file 认证，一旦认证开启，那么后续操作都需要是用到 admin 用户  
 2. 首次安装过程会出现告警，这是因为安装的时间差造成的。如果你仔细查看告警，会发现同一个分片中，只有一个节点的成功的，其他节点是失败的，而且router 会直接不启动。出现这个问题的最佳方式是 待首次启动之后，再启动router就行。
+3. 如果有修改分片或者副本集，需要重启整个mongodb。
