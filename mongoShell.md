@@ -5,3 +5,22 @@
 ```
 bin/mongo --host <hostname> --port <port>
 ```
+
+mongo shell种类很多 包括：  
+Collection  
+Cursor  
+Database  
+Query Plan Cache  
+Bulk Write Operation  
+User Management  
+Role Management  
+Replication  
+Sharding  
+Subprocess  
+Constructors  
+Connection  
+Native  
+更多参考：  
+https://docs.mongodb.com/manual/reference/method/  
+
+但是常用的有[Database](databaseMethods.md),[Replication](replicationMethods.md),[Sharding](shardingMethods.md),[User Management](userManagerMethods.md) 。其他的以后讨论。
