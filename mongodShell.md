@@ -39,7 +39,7 @@ security:
 启动方式有两种：命令行和配置文件    
 命令行： 
 ``` 
-mongod --shardsvr --replSet <setname> --dbpath <path> --port <port> --logpath <logpath> --fork  
+mongod --shardsvr --replSet <setname> --dbpath <path> --port <port> --logpath <logpath> --fork --nojournal  
 ```
 配置文件：
 ```
