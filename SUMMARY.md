@@ -6,3 +6,6 @@
 * [mongod shell](mongodShell.md)
 * [mongos shell](mongosShell.md)
 * [mongo shell](mongoShell.md)
+* [shading 方法](shardingMethods.md)
+* [Database 方法](databaseMethods.md)
+* [mongodb java driver](javaDriver.md)

@@ -1,4 +1,4 @@
-config和shard 需要通过mongod 命令启动。
+shardingMethodsconfig和shard 需要通过mongod 命令启动。
 
 1. 启动mongod 进程  
 1.1 启动 config server 
