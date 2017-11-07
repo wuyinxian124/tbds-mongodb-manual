@@ -60,6 +60,3 @@ security:
 ```  
 **3.2 router-server**   
 router_server_log_path 指定log 存储路径(完整路径为 /usr/local/mongodb+ 指定路径)  
-
-
-### 说明
