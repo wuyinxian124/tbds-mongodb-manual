@@ -60,3 +60,6 @@ security:
 ```  
 **3.2 router-server**   
 router_server_log_path 指定log 存储路径(完整路径为 /usr/local/mongodb+ 指定路径)  
+
+#### 说明
+1. 安装过程中，tbds会在mongodb 中新建一个用户admin ,密码是123qwe!@#QWE 目前这个密码是固定的，不能指定。 admin 对应的角色为root,userAdminAnyDatabase
