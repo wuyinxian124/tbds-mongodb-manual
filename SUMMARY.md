@@ -5,3 +5,4 @@
 * [安装](install.md)
 * [mongod shell](mongodShell.md)
 * [mongos shell](mongosShell.md)
+* [mongo shell](mongoShell.md)
