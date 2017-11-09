@@ -8,6 +8,6 @@
 * [mongo shell](mongoShell.md)
 * [shading 方法](shardingMethods.md)
 * [Database 方法](databaseMethods.md)
-* [userManager 方法](userMangerMethods.md)
+* [userManager 方法](userManagerMethods.md)
 * [Replication](replicationMethods.md)
 * [mongodb java driver](javaDriver.md)
