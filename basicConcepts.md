@@ -1,11 +1,16 @@
 # 基本概念
 
 ------------------------------
-##1. 工作流
-工作流是大数据套件（tbds）其中一个模块，主要功能是任务配置，任务调度。
+mongodb  
 
-##2. 任务
+config server 
 
-3. 实例
-4. 调度
-5. 
+shard server
+
+router server
+
+mongod shell
+
+mongos shell
+
+mongo  shell  
