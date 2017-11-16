@@ -48,7 +48,7 @@ shard1/hostname1:port1,hostname2:port2|shard2/hostname3:port3,hostname4:port4,[h
 shard1 和shard2是两个分片名称,表示整个db会切成两个分片。shard1下面有一主一备，分别是hostname1,hostname2,主备之间是mongodb 内部决定的。通过[] 标示的hostname5 表示该节点是仲裁点，也就是说shard2 有一主一备一仲裁。port mongod进程通信端口，请确保指定的端口没有被其他进程占用。
 
 **ps:**  
-&emsp;&emsp;需要特别注意的是 仲裁节点不能安装其他分片或者备份
+&emsp;&emsp;需要特别注意的是 仲裁节点不能安装其他分片或者备份 
 
 #### 3. router server
 **3.1 router-server-env**  
@@ -60,11 +60,6 @@ security:
 ```  
 **3.2 router-server**   
 router_server_log_path 指定log 存储路径(完整路径为 /usr/local/mongodb+ 指定路径)  
-
-#### 4. mongodb-env  
-mongodb-env 只有一个参数那就 mongodb 日志目录和数据目录的根目录。   
-默认情况下，设置的日志目录和数据目录在mongodb 的安装目录下（/usr/local/mongodb）  
-在遇到安装目录存储空间不足，特别是生产环境中，需要调整该目录。
 
 #### 说明
 1. 安装过程中，tbds会在mongodb 中新建一个用户admin ,密码是123qwe!@#QWE 目前这个密码是固定的，不能指定。 admin 对应的角色为root,userAdminAnyDatabase。默认启用key file 认证，一旦认证开启，那么后续操作都需要是用到 admin 用户  
